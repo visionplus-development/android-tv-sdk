@@ -1,0 +1,18 @@
+install:
+  - |
+    AAR_FILE="android-tv-sdk-0.1.0.aar"
+    JAR_FILE="android-tv-sdk-0.1.0.jar"
+    MODULE_FILE="android-tv-sdk-0.1.0.module"
+    POM_FILE="android-tv-sdk-0.1.0.pom"
+    
+    # Install AAR
+    mvn install:install-file -Dfile=$AAR_FILE -DgroupId=id.visionplus -DartifactId=android-tv-sdk -Dversion=0.1.0 -Dpackaging=aar -DgeneratePom=true
+    
+    # Install JAR
+    mvn install:install-file -Dfile=$JAR_FILE -DgroupId=id.visionplus -DartifactId=android-tv-sdk -Dversion=0.1.0 -Dpackaging=jar -DgeneratePom=true
+    
+    # Install module file
+    mvn install:install-file -Dfile=$MODULE_FILE -DgroupId=id.visionplus -DartifactId=android-tv-sdk -Dversion=0.1.0 -Dpackaging=module -DgeneratePom=true
+    
+    # Install POM file
+    mvn install:install-file -Dfile=$POM_FILE -DgroupId=id.visionplus -DartifactId=android-tv-sdk -Dversion=0.1.0 -Dpackaging=pom -DgeneratePom=true
