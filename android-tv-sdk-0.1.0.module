@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "id.visionplus",
+    "module": "android-tv-sdk",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productionReleaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.ProductFlavor:environment": "production",
+        "environment": "production",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-tv-sdk-0.1.0.aar",
+          "url": "android-tv-sdk-0.1.0.aar",
+          "size": 58721,
+          "sha512": "898bab3fcd26a0ac7d9a7f021c6b62707e561533be7aa48a943a1372207b322404488ca85d41af791db96083680fadba99583a1632f8ace090381b5a7b048cd1",
+          "sha256": "8171ae6d72304e1daef72cd8ced34aee5996741eda116a5eb065099d275be8bd",
+          "sha1": "d743bf6980d07746aef9277d6890ac384e378829",
+          "md5": "18caa533529159560a090c2c80a48ae3"
+        }
+      ]
+    },
+    {
+      "name": "productionReleaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.ProductFlavor:environment": "production",
+        "environment": "production",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-tv-sdk-0.1.0.aar",
+          "url": "android-tv-sdk-0.1.0.aar",
+          "size": 58721,
+          "sha512": "898bab3fcd26a0ac7d9a7f021c6b62707e561533be7aa48a943a1372207b322404488ca85d41af791db96083680fadba99583a1632f8ace090381b5a7b048cd1",
+          "sha256": "8171ae6d72304e1daef72cd8ced34aee5996741eda116a5eb065099d275be8bd",
+          "sha1": "d743bf6980d07746aef9277d6890ac384e378829",
+          "md5": "18caa533529159560a090c2c80a48ae3"
+        }
+      ]
+    },
+    {
+      "name": "productionReleaseSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.ProductFlavor:environment": "production",
+        "environment": "production",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "android-tv-sdk-0.1.0-sources.jar",
+          "url": "android-tv-sdk-0.1.0-sources.jar",
+          "size": 28473,
+          "sha512": "270b24263bce1d544552de3bf219f00f94feaafd6942893b4131f8cd5df955c58efc59144823637e278261af2668a15ee3a76dda4c72a4a6bfac685c0cbb2a1d",
+          "sha256": "bf6584c86e4b6b8385048809de5096ff560eecb75c4e81169575861244660c6e",
+          "sha1": "bb26bbf2384810811faaa41718e7f96e0e6344a6",
+          "md5": "89d3ae069f1f744b8c0352a4127c1d64"
+        }
+      ]
+    }
+  ]
+}
