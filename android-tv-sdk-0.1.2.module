@@ -3,7 +3,7 @@
   "component": {
     "group": "id.visionplus",
     "module": "android-tv-sdk",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,13 +34,13 @@
       ],
       "files": [
         {
-          "name": "android-tv-sdk-0.1.1.aar",
-          "url": "android-tv-sdk-0.1.1.aar",
-          "size": 58722,
-          "sha512": "dd743d28cd1db5b988bcce13f4f8f1771d20971429425753a630f9d9fcf4fe17131bbf87f88271f5f6e61194067a650759a4dce8ee6236e1ca57a27efa5e2561",
-          "sha256": "3ede9a5e9e0ac369e909aec260ab319e86a77f6bcc5dcc606cf58e8b8dcc78af",
-          "sha1": "2219919a66254fdc31b4413f15eb7faaab788ac0",
-          "md5": "53f9fccf32e6cd2f17df65c8344f9e22"
+          "name": "android-tv-sdk-0.1.2.aar",
+          "url": "android-tv-sdk-0.1.2.aar",
+          "size": 58720,
+          "sha512": "088094fdbf8b501e221de8718ceb5681fe60135ea52348a9143999af304cf8a4b2e579d19eb50fbb055f10e77d14445fa1298dc950436571acbc32902c1e78be",
+          "sha256": "f2cf984d7f495a6ecb4dcefa3a4190a31e8d8bacb22a9192367154a26d9e7c99",
+          "sha1": "c87d794b48f01eb734ebd04c8ee2d674892b58b9",
+          "md5": "7df7f19cdba30d1ab28b7dd07d669767"
         }
       ]
     },
@@ -78,13 +78,13 @@
       ],
       "files": [
         {
-          "name": "android-tv-sdk-0.1.1.aar",
-          "url": "android-tv-sdk-0.1.1.aar",
-          "size": 58722,
-          "sha512": "dd743d28cd1db5b988bcce13f4f8f1771d20971429425753a630f9d9fcf4fe17131bbf87f88271f5f6e61194067a650759a4dce8ee6236e1ca57a27efa5e2561",
-          "sha256": "3ede9a5e9e0ac369e909aec260ab319e86a77f6bcc5dcc606cf58e8b8dcc78af",
-          "sha1": "2219919a66254fdc31b4413f15eb7faaab788ac0",
-          "md5": "53f9fccf32e6cd2f17df65c8344f9e22"
+          "name": "android-tv-sdk-0.1.2.aar",
+          "url": "android-tv-sdk-0.1.2.aar",
+          "size": 58720,
+          "sha512": "088094fdbf8b501e221de8718ceb5681fe60135ea52348a9143999af304cf8a4b2e579d19eb50fbb055f10e77d14445fa1298dc950436571acbc32902c1e78be",
+          "sha256": "f2cf984d7f495a6ecb4dcefa3a4190a31e8d8bacb22a9192367154a26d9e7c99",
+          "sha1": "c87d794b48f01eb734ebd04c8ee2d674892b58b9",
+          "md5": "7df7f19cdba30d1ab28b7dd07d669767"
         }
       ]
     },
@@ -102,8 +102,8 @@
       },
       "files": [
         {
-          "name": "android-tv-sdk-0.1.1-sources.jar",
-          "url": "android-tv-sdk-0.1.1-sources.jar",
+          "name": "android-tv-sdk-0.1.2-sources.jar",
+          "url": "android-tv-sdk-0.1.2-sources.jar",
           "size": 28473,
           "sha512": "270b24263bce1d544552de3bf219f00f94feaafd6942893b4131f8cd5df955c58efc59144823637e278261af2668a15ee3a76dda4c72a4a6bfac685c0cbb2a1d",
           "sha256": "bf6584c86e4b6b8385048809de5096ff560eecb75c4e81169575861244660c6e",
